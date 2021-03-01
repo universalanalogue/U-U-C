@@ -1,5 +1,5 @@
 # U-U-C
-Usless Use of Cat 
+Useless Use of Cat 
 
 A small program designed to help awnser the age old question, is your cat statment a Useless Use of Cat?
 
@@ -25,4 +25,4 @@ A small program designed to help awnser the age old question, is your cat statme
 5) Enjoy
 
 
-Dedicated to those whose tireless war on inapropriate use of the cat command inspired this wonderful program.
+Dedicated to those whose tireless war on inappropriate use of the cat command who inspired this wonderful program.
