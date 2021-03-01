@@ -63,7 +63,7 @@ echo "#######################################################
 # $last #
 # $output #
 #-----------------------------------------------------#
-# Statement to check for a Useless use of Cat:        #
+# Statement to check for a Useless Use of Cat:        #
 #                                                     #
 #######################################################"
 }
@@ -85,7 +85,7 @@ if [[ "$cat" == *"cat"* ]]
 then
 printf "\e[1;1H"
 graphics1b
-output=("This is a useless use of cat")
+output=("This is a Useless Use of Cat")
 fi
 
 if [[ "$cat" != *"cat"* ]]
