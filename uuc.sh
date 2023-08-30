@@ -1,8 +1,8 @@
 #!/bin/bash
-
+#see if you can find all of the usless uses of cat
 graphics1a (){
 
-echo '#######################################################
+cat <<< '#######################################################
 #                                                     #
 #                                                     #
 #                                                     #
@@ -31,7 +31,7 @@ echo '#######################################################
 
 graphics1b (){
 
-echo '#######################################################
+cat <<< '#######################################################
 #                                                     #
 #                 /\               /\                 #
 #                /  \             /  \                #
@@ -59,7 +59,7 @@ echo '#######################################################
 }
 
 graphics2a (){
-echo "#######################################################
+cat <<< "#######################################################
 # $last #
 # $output #
 #-----------------------------------------------------#
@@ -85,21 +85,21 @@ if [[ "$cat" == *"cat"* ]]
 then
 printf "\e[1;1H"
 graphics1b
-output=("This is a Useless Use of Cat")
+output=$(cat <<< "This is a Useless Use of Cat")
 fi
 
 if [[ "$cat" != *"cat"* ]]
 then
 printf "\e[1;1H"
 graphics1b
-output=("This statement does not contain any cats")
+output=$(cat <<< "This statement does not contain any cats")
 fi
 
 if [ -z "$cat" ]
 then
 printf "\e[1;H"
 graphics1b
-output=("This statement is blank")
+output=$(cat <<< "This statement is blank")
 fi
 
 
